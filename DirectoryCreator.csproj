@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{601D6F99-0B8F-4A20-99C0-587AD8B58F96}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DictionaryCreator</RootNamespace>
+    <AssemblyName>DirectoryCreator</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DirectoryCreator.cs" />
+    <Compile Include="FileOperator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\1200\full\backgrounds\" />
+    <Folder Include="images\1200\full\effects\" />
+    <Folder Include="images\1200\full\eggbreaker\" />
+    <Folder Include="images\1200\full\endlevel\" />
+    <Folder Include="images\1200\full\firebreaker\" />
+    <Folder Include="images\1200\full\gravestones\" />
+    <Folder Include="images\1200\full\minigame\" />
+    <Folder Include="images\1200\full\mowers\" />
+    <Folder Include="images\1200\full\notes\" />
+    <Folder Include="images\1200\full\plant\" />
+    <Folder Include="images\1200\full\Railcart\" />
+    <Folder Include="images\1200\full\security_gourds\" />
+    <Folder Include="images\1200\full\UI\" />
+    <Folder Include="images\1200\full\vasebreaker\" />
+    <Folder Include="images\1200\full\worldkey\" />
+    <Folder Include="images\1200\full\worldmap\" />
+    <Folder Include="images\1200\full\zombies\" />
+    <Folder Include="images\1200\full\zombie\" />
+    <Folder Include="images\1200\initial\animations\" />
+    <Folder Include="images\1200\initial\backgrounds\" />
+    <Folder Include="images\1200\initial\CrazyDave\" />
+    <Folder Include="images\1200\initial\credits\" />
+    <Folder Include="images\1200\initial\dangerroom\" />
+    <Folder Include="images\1200\initial\effects\" />
+    <Folder Include="images\1200\initial\empowermints\" />
+    <Folder Include="images\1200\initial\endlevel\" />
+    <Folder Include="images\1200\initial\giftbox\" />
+    <Folder Include="images\1200\initial\gravestones\" />
+    <Folder Include="images\1200\initial\logos\" />
+    <Folder Include="images\1200\initial\missing_pam\" />
+    <Folder Include="images\1200\initial\mowers\" />
+    <Folder Include="images\1200\initial\newload\" />
+    <Folder Include="images\1200\initial\notes\" />
+    <Folder Include="images\1200\initial\NPC\" />
+    <Folder Include="images\1200\initial\plant\" />
+    <Folder Include="images\1200\initial\Railcart\" />
+    <Folder Include="images\1200\initial\space_spiral\" />
+    <Folder Include="images\1200\initial\titlebackgrounds\" />
+    <Folder Include="images\1200\initial\UI\" />
+    <Folder Include="images\1200\initial\winnie\" />
+    <Folder Include="images\1200\initial\worldkey\" />
+    <Folder Include="images\1200\initial\worldmap\" />
+    <Folder Include="images\1200\initial\zen_garden\" />
+    <Folder Include="images\1200\initial\zombie\" />
+    <Folder Include="images\1536\full\backgrounds\" />
+    <Folder Include="images\1536\full\effects\" />
+    <Folder Include="images\1536\full\eggbreaker\" />
+    <Folder Include="images\1536\full\endlevel\" />
+    <Folder Include="images\1536\full\firebreaker\" />
+    <Folder Include="images\1536\full\gravestones\" />
+    <Folder Include="images\1536\full\minigame\" />
+    <Folder Include="images\1536\full\mowers\" />
+    <Folder Include="images\1536\full\notes\" />
+    <Folder Include="images\1536\full\plant\" />
+    <Folder Include="images\1536\full\Railcart\" />
+    <Folder Include="images\1536\full\security_gourds\" />
+    <Folder Include="images\1536\full\UI\" />
+    <Folder Include="images\1536\full\vasebreaker\" />
+    <Folder Include="images\1536\full\worldkey\" />
+    <Folder Include="images\1536\full\worldmap\" />
+    <Folder Include="images\1536\full\zombies\" />
+    <Folder Include="images\1536\full\zombie\" />
+    <Folder Include="images\1536\initial\animations\" />
+    <Folder Include="images\1536\initial\backgrounds\" />
+    <Folder Include="images\1536\initial\CrazyDave\" />
+    <Folder Include="images\1536\initial\credits\" />
+    <Folder Include="images\1536\initial\dangerroom\" />
+    <Folder Include="images\1536\initial\effects\" />
+    <Folder Include="images\1536\initial\empowermints\" />
+    <Folder Include="images\1536\initial\endlevel\" />
+    <Folder Include="images\1536\initial\giftbox\" />
+    <Folder Include="images\1536\initial\gravestones\" />
+    <Folder Include="images\1536\initial\logos\" />
+    <Folder Include="images\1536\initial\missing_pam\" />
+    <Folder Include="images\1536\initial\mowers\" />
+    <Folder Include="images\1536\initial\newload\" />
+    <Folder Include="images\1536\initial\notes\" />
+    <Folder Include="images\1536\initial\NPC\" />
+    <Folder Include="images\1536\initial\plant\" />
+    <Folder Include="images\1536\initial\Railcart\" />
+    <Folder Include="images\1536\initial\space_spiral\" />
+    <Folder Include="images\1536\initial\titlebackgrounds\" />
+    <Folder Include="images\1536\initial\UI\" />
+    <Folder Include="images\1536\initial\winnie\" />
+    <Folder Include="images\1536\initial\worldkey\" />
+    <Folder Include="images\1536\initial\worldmap\" />
+    <Folder Include="images\1536\initial\zen_garden\" />
+    <Folder Include="images\1536\initial\zombie\" />
+    <Folder Include="images\384\full\backgrounds\" />
+    <Folder Include="images\384\full\effects\" />
+    <Folder Include="images\384\full\eggbreaker\" />
+    <Folder Include="images\384\full\endlevel\" />
+    <Folder Include="images\384\full\firebreaker\" />
+    <Folder Include="images\384\full\gravestones\" />
+    <Folder Include="images\384\full\minigame\" />
+    <Folder Include="images\384\full\mowers\" />
+    <Folder Include="images\384\full\notes\" />
+    <Folder Include="images\384\full\plant\" />
+    <Folder Include="images\384\full\Railcart\" />
+    <Folder Include="images\384\full\security_gourds\" />
+    <Folder Include="images\384\full\UI\" />
+    <Folder Include="images\384\full\vasebreaker\" />
+    <Folder Include="images\384\full\worldkey\" />
+    <Folder Include="images\384\full\worldmap\" />
+    <Folder Include="images\384\full\zombies\" />
+    <Folder Include="images\384\full\zombie\" />
+    <Folder Include="images\384\initial\animations\" />
+    <Folder Include="images\384\initial\backgrounds\" />
+    <Folder Include="images\384\initial\CrazyDave\" />
+    <Folder Include="images\384\initial\credits\" />
+    <Folder Include="images\384\initial\dangerroom\" />
+    <Folder Include="images\384\initial\effects\" />
+    <Folder Include="images\384\initial\empowermints\" />
+    <Folder Include="images\384\initial\endlevel\" />
+    <Folder Include="images\384\initial\giftbox\" />
+    <Folder Include="images\384\initial\gravestones\" />
+    <Folder Include="images\384\initial\logos\" />
+    <Folder Include="images\384\initial\missing_pam\" />
+    <Folder Include="images\384\initial\mowers\" />
+    <Folder Include="images\384\initial\newload\" />
+    <Folder Include="images\384\initial\notes\" />
+    <Folder Include="images\384\initial\NPC\" />
+    <Folder Include="images\384\initial\plant\" />
+    <Folder Include="images\384\initial\Railcart\" />
+    <Folder Include="images\384\initial\space_spiral\" />
+    <Folder Include="images\384\initial\titlebackgrounds\" />
+    <Folder Include="images\384\initial\UI\" />
+    <Folder Include="images\384\initial\winnie\" />
+    <Folder Include="images\384\initial\worldkey\" />
+    <Folder Include="images\384\initial\worldmap\" />
+    <Folder Include="images\384\initial\zen_garden\" />
+    <Folder Include="images\384\initial\zombie\" />
+    <Folder Include="images\768\full\backgrounds\" />
+    <Folder Include="images\768\full\effects\" />
+    <Folder Include="images\768\full\eggbreaker\" />
+    <Folder Include="images\768\full\endlevel\" />
+    <Folder Include="images\768\full\firebreaker\" />
+    <Folder Include="images\768\full\gravestones\" />
+    <Folder Include="images\768\full\minigame\" />
+    <Folder Include="images\768\full\mowers\" />
+    <Folder Include="images\768\full\notes\" />
+    <Folder Include="images\768\full\plant\" />
+    <Folder Include="images\768\full\Railcart\" />
+    <Folder Include="images\768\full\security_gourds\" />
+    <Folder Include="images\768\full\UI\" />
+    <Folder Include="images\768\full\vasebreaker\" />
+    <Folder Include="images\768\full\worldkey\" />
+    <Folder Include="images\768\full\worldmap\" />
+    <Folder Include="images\768\full\zombies\" />
+    <Folder Include="images\768\full\zombie\" />
+    <Folder Include="images\768\initial\animations\" />
+    <Folder Include="images\768\initial\backgrounds\" />
+    <Folder Include="images\768\initial\CrazyDave\" />
+    <Folder Include="images\768\initial\credits\" />
+    <Folder Include="images\768\initial\dangerroom\" />
+    <Folder Include="images\768\initial\effects\" />
+    <Folder Include="images\768\initial\empowermints\" />
+    <Folder Include="images\768\initial\endlevel\" />
+    <Folder Include="images\768\initial\giftbox\" />
+    <Folder Include="images\768\initial\gravestones\" />
+    <Folder Include="images\768\initial\logos\" />
+    <Folder Include="images\768\initial\missing_pam\" />
+    <Folder Include="images\768\initial\mowers\" />
+    <Folder Include="images\768\initial\newload\" />
+    <Folder Include="images\768\initial\notes\" />
+    <Folder Include="images\768\initial\NPC\" />
+    <Folder Include="images\768\initial\plant\" />
+    <Folder Include="images\768\initial\Railcart\" />
+    <Folder Include="images\768\initial\space_spiral\" />
+    <Folder Include="images\768\initial\titlebackgrounds\" />
+    <Folder Include="images\768\initial\UI\" />
+    <Folder Include="images\768\initial\winnie\" />
+    <Folder Include="images\768\initial\worldkey\" />
+    <Folder Include="images\768\initial\worldmap\" />
+    <Folder Include="images\768\initial\zen_garden\" />
+    <Folder Include="images\768\initial\zombie\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
